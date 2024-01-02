@@ -29,13 +29,6 @@
             app:srcCompat="@drawable/mario" />
 -->
 
-        <com.example.mariooooo.MyView
-            android:id="@+id/test_view"
-            android:layout_marginTop="70dp"
-            android:layout_marginBottom="100dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/brick"/>
 
 
 
