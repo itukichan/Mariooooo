@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/background_title" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="200dp"
+            android:gravity="center"
+            android:textSize="60dp"
+            android:text="TEST\nGAME"/>
+
+        <Button
+            android:id="@+id/StartButton"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="500dp"
+            android:text="Tap to Start" />
+
+
+    </RelativeLayout>
+</LinearLayout>
