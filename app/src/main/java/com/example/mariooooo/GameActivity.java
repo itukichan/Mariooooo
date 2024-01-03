@@ -35,6 +35,7 @@ public class GameActivity extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //gitpushテスト用のコメント
         // レイアウトの設定
         //RelativeLayout relativeLayout = new RelativeLayout(this);
         // 垂直方向
